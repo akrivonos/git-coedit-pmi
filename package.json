@@ -1,0 +1,40 @@
+{
+  "name": "git-coedit-pmi",
+  "version": "0.1.0",
+  "description": "Pointwise mutual information (PMI) co-change coupling mined from git history — find the files that change together.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "pmi",
+    "co-change",
+    "co-edit",
+    "logical-coupling",
+    "temporal-coupling",
+    "code-intelligence",
+    "retrieval"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
