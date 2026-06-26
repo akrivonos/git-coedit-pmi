@@ -1,6 +1,6 @@
 {
   "name": "git-coedit-pmi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pointwise mutual information (PMI) co-change coupling mined from git history — find the files that change together.",
   "type": "module",
   "main": "./dist/index.js",
@@ -13,7 +13,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "tsc",
